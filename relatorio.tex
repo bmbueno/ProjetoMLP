@@ -150,8 +150,13 @@ Escolheu-se este jogo pela fácil usabilidade, por ser um ótimo e renomado arca
 %
 \chapter{A linguagem - Scala}
 
-Para implementação do Projeto escolheu-se a linguagem de programação Scala, pois a mesma é compatível com Java, e possui muitos aspectos semelhantes a ela, e além de seguir os paradigmas de OO possui muitas características de linguagens de programação funcional, sendo uma ótima linguagem para atender a proposta do Projeto.
+Para implementação do Projeto escolhemos a linguagem de programação Scala, pois a mesma é compatível com Java, e possui muitos aspectos semelhantes a ela, e além de seguir os paradigmas de OO possui muitas características de linguagens de programação funcional, sendo uma ótima linguagem para atender a proposta do Projeto.
 
+Um dos outros motivos que nos levou a escolher a linguagem de programação Scala é o seguinte: a escalabilidade, como o nome sugere, pois é uma linguagem multi-paradigma em que só existem objetos e métodos. Qualquer função dentro da linguagem é uma chamada de método e quaisquer valores são classes (mesmo os "tipos primitivos" são classes, diferentemente de Java, onde \textit{float} e\textit{ Float} são elementos diferentes). Ainda assim, é possível importar classes e métodos definidos em Java, ou seja, além de todos os pacotes da linguagem Scala é possível incorporar pacotes Java, evitando-se retrabalho.
+
+Mesmo sendo uma linguagem derivada, entre outras, de Java, programas em Scala são menos verbosos, mas conservam a qualidade da legibilidade do código. Scala é uma linguagem de programação estáticamente tipada e, com isso, o sistema de tipos nos oferece segurança através de propriedades verificáveis (e.g. não é possível fazer adição de inteiros e strings, a menos que seja criado um método responsável pelo operação) e, com isso, o algoritmo de \textit{type inference} se torna o responsável pela redução da verbosidade da linguagem.
+
+Uma das principais aplicações que utilizam Scala é o Apache Spark, que consiste numa ferramenta para processar grandes volumes de dados de forma paralela e distribuída que utiliza a linguagem Scala na implementação de seus componentes de \textit{back-end}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Referências 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -165,14 +170,10 @@ Para implementação do Projeto escolheu-se a linguagem de programação Scala, 
 \bibliography{biblio} % arquivo que contém as referências (no formato bib). Colocar as suas lá (se tiver dúvida sobre como adicionar novas referências, usar o software JabRef ou Medley)
 
 
+\noindent \textit{ODERSKY, M.; SPOON, L.; VENNERS, B. Programming in Scala. Mountain View, California: Artima Press, 2008. p3 - 27.}
 
-\noindent {\\\bf Se tiver alguma dúvida, veja os exemplos seguintes:}\\
+\noindent\textit{ https://pt.wikipedia.org/wiki/Space_Invaders.}\textit{ Acesso em 17/09/2018.}
 
-
-\noindent LISBOA FILHO, J.; IOCHPE, C.; BORGES, K. Reutilização de Esquemas de Bancos de Dados em Aplicações de Gestão Urbana. {\bf IP -- Informática Pública}, Belo Horizonte, v.4, n.1, p.105-119, June 2002. Disponível em: $<$http://www.ip.pbh.gov.br/ip0401.html $>$. Acesso em: set. 2002.
-
-\noindent ~
-
-\noindent https://pt.wikipedia.org/wiki/Space_Invaders
+\noindent\textit{ https://www.devmedia.com.br/introducao-ao-apache-spark/34178}. \textit{Acesso em 18/09/2018.}
 
 \end{document}

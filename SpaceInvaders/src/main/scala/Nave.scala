@@ -1,6 +1,6 @@
 class Nave() {
   val posXInicial: Int = 0;
-  val posYInicial: Int = 0;
+  val posYInicial: Int = 50;
   val quantidadeVidas: Int = 3;
   var posX: Int = 0;
   var posY: Int = 0;

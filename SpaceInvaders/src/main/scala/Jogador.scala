@@ -1,9 +1,9 @@
-class Jogador(nome: String) {
-  val nomeJogador: String = nome;
+class Jogador(nomeJogador: String) {
+  val nome: String = nomeJogador;
   var pontuacao: Int = 0;
 
   def getNome: String = {
-    return this.nomeJogador;
+    return this.nome;
   }
 
   def getPontuacao: Int = {

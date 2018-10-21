@@ -14787,20 +14787,20 @@
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.jetbrains#sbt-structure-extractor;2018.2!sbt-structure-extractor.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.jetbrains#sbt-idea-shell;2017.2!sbt-idea-shell.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#sbt;1.2.4!sbt.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#command_2.12;1.2.4!command_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#main_2.12;1.2.4!main_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#logic_2.12;1.2.4!logic_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#actions_2.12;1.2.4!actions_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#main-settings_2.12;1.2.4!main-settings_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#run_2.12;1.2.4!run_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#command_2.12;1.2.4!command_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.jetbrains#sbt-idea-shell;2017.2!sbt-idea-shell.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#collections_2.12;1.2.4!collections_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#scripted-sbt-redux_2.12;1.2.4!scripted-sbt-redux_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#main-settings_2.12;1.2.4!main-settings_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#scripted-plugin_2.12;1.2.4!scripted-plugin_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#actions_2.12;1.2.4!actions_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#sbt;1.2.4!sbt.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#run_2.12;1.2.4!run_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.4!launcher-interface.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.8.1!log4j-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar(test-jar)[0m
@@ -14871,7 +14871,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.cb372#scalacache-core_2.12;0.20.0!scalacache-core_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.github.ben-manes.caffeine#caffeine;2.5.6!caffeine.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310!ivy.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 4662ms :: artifacts dl 94ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 1609ms :: artifacts dl 55ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#spaceinvaders-build;0.1.0-SNAPSHOT compile produced in /home/bruno/Área de Trabalho/ProjetoMLP/SpaceInvaders/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spaceinvaders-build-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#spaceinvaders-build;0.1.0-SNAPSHOT runtime produced in /home/bruno/Área de Trabalho/ProjetoMLP/SpaceInvaders/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spaceinvaders-build-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#spaceinvaders-build;0.1.0-SNAPSHOT test produced in /home/bruno/Área de Trabalho/ProjetoMLP/SpaceInvaders/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spaceinvaders-build-test.xml[0m
@@ -14883,5 +14883,5 @@
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#spaceinvaders-build;0.1.0-SNAPSHOT plugin produced in /home/bruno/Área de Trabalho/ProjetoMLP/SpaceInvaders/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spaceinvaders-build-plugin.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#spaceinvaders-build;0.1.0-SNAPSHOT pom produced in /home/bruno/Área de Trabalho/ProjetoMLP/SpaceInvaders/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spaceinvaders-build-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#spaceinvaders-build;0.1.0-SNAPSHOT scala-tool produced in /home/bruno/Área de Trabalho/ProjetoMLP/SpaceInvaders/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-spaceinvaders-build-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (4662ms resolve - 94ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (1609ms resolve - 55ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m

@@ -1,26 +1,26 @@
 class Jogador(nomeJogador: String) {
-  val nome: String = nomeJogador;
-  var pontuacao: Int = 0;
+  val nome: String = nomeJogador
+  var pontuacao: Int = 0
 
   def getNome: String = {
-    return this.nome;
+    return this.nome
   }
 
   def getPontuacao: Int = {
-    return this.pontuacao;
+    return this.pontuacao
   }
   def atualizaPontuacao: Unit ={
-    this.pontuacao += 1;
+    this.pontuacao += 1
   }
   //-------------------------------------------------- [PRINTS]
 
   def printInformacoesJogador: Unit ={
-    println("----------------");
-    println("INFORMACOES JOGADOR");
-    println("----------------");
-    println("Nome: " + this.getNome);
-    println("Pontuacao: " + this.getPontuacao);
-    println("----------------");
+    println("----------------")
+    println("INFORMACOES JOGADOR")
+    println("----------------")
+    println("Nome: " + this.getNome)
+    println("Pontuacao: " + this.getPontuacao)
+    println("----------------")
 
   }
 

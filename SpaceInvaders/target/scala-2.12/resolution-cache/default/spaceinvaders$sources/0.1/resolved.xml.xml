@@ -4,7 +4,7 @@
 		module="spaceinvaders$sources"
 		revision="0.1"
 		status="integration"
-		publication="20181019231458"
+		publication="20181021150239"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

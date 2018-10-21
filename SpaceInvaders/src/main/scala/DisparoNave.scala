@@ -1,30 +1,30 @@
 class DisparoNave(coordenadaNaveX: Int, coordenadaNaveY: Int) {
-  var coordenadaDisparoX: Int = coordenadaNaveX;
-  var coordenadaDisparoY: Int = coordenadaNaveY + 1;
+  var coordenadaDisparoX: Int = coordenadaNaveX
+  var coordenadaDisparoY: Int = coordenadaNaveY + 1
 
   //-------------------------------------------------- [GETS]
   def getCoordenadaDisparoX: Int ={
-    return this.coordenadaDisparoX;
+    return this.coordenadaDisparoX
   }
 
   def getCoordenadaDisparoY: Int ={
-    return this.coordenadaDisparoY;
+    return this.coordenadaDisparoY
   }
 
   def movimentoDisparo: Unit ={
-    this.coordenadaDisparoY += this.coordenadaDisparoY;
+    this.coordenadaDisparoY += 1
   }
 
 
   //-------------------------------------------------- [PRINTS]
 
   def printInformacoesDisparoNave: Unit ={
-    println("----------------");
-    println("INFORMACOES DISPARO NAVE");
-    println("----------------");
-    println("Coordenada x: " + this.getCoordenadaDisparoX);
-    println("Coordenada y: " + this.getCoordenadaDisparoY);
-    println("----------------");
+    println("----------------")
+    println("INFORMACOES DISPARO NAVE")
+    println("----------------")
+    println("Coordenada x: " + this.getCoordenadaDisparoX)
+    println("Coordenada y: " + this.getCoordenadaDisparoY)
+    println("----------------")
 
   }
 

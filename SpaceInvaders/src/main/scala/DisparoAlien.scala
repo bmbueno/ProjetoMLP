@@ -12,4 +12,7 @@ class DisparoAlien(coordX : Int, coordY : Int) {
   def getY: Int = {
     return this.y;
   }
+  def move: Unit = {
+    this.y -= 1
+  }
 }
